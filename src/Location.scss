@@ -1,6 +1,9 @@
 .location{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
 
     .icon{
         height: 100%;
@@ -19,13 +22,14 @@
         -webkit-text-fill-color: transparent;
     }
     .location-name{
-        display: flex;
-        align-items: center;
+        font-size: 28px;
+        font-weight: 500;
     }
 
     .location-number{
         display: flex;
         align-items: center;
+        gap: 5px;
     }
 
     .location-address{
@@ -35,5 +39,19 @@
 
     .location-container{
         display: flex;
+        gap: 3em;
+
+
+        .location-container-left{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .location-container-right{
+
+        }
     }
 }
