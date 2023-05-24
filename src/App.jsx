@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.scss'
-import Nav from './assets/Nav'
+import Nav from './Nav'
+import Hero from './Hero'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
   return (
 <div className="app">
 <Nav />
+<Hero />
 </div>
   )
 }
