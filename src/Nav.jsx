@@ -26,7 +26,7 @@ const Nav = () => {
             </a>
             <a href="">
             <div className="nav-item">
-                Membership Fees
+                Membership
             </div>
             </a>
         </div>

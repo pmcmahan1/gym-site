@@ -1,7 +1,7 @@
 .hero{
     background-image: linear-gradient(
-        rgba(0,0,0,0.4),
-        rgba(0,0,0, 0.4)),
+        rgba(0,0,0,0.5),
+        rgba(0,0,0, 0.5)),
         url("./assets/hero-img.jpg");
     background-position: center;
     margin: 0;
@@ -35,6 +35,11 @@
         font-size: 48px;
         color: white;
         cursor: pointer;
+        background-color: rgba(86, 94, 86, 0.2);
+    }
+
+    .hero-down:hover{
+        transform: translateY(4px);
     }
 
     .sub-text{
