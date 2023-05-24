@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     padding: 5em 0;
-    gap: 3em;
+    gap: 5em;
     $primary: #030302; /*(RGB: 3, 3, 2) */
     $secondary: #f5f1ea; /*(RGB: 245, 241, 234) */
     $primbuttn: #627fb2; /*(RGB: 98, 127, 178) */
@@ -16,6 +16,7 @@
         flex-direction: column;
         align-items: center;
         gap: 1em;
+        min-width: 450px;
 
         h1{
             font-size: 48px;
@@ -30,6 +31,7 @@
         li {
             list-style: disc;
             font-size: 22px;
+            margin: 8px 0;
         }
     }
 
