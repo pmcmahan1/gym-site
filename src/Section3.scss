@@ -1,0 +1,37 @@
+.section3{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 5em 0;
+    width: 100%;
+
+    li{
+        margin-top: 10px;
+    }
+    
+
+    .icon{
+        color: #394f74;
+        font-size: 32px;
+        vertical-align: middle;
+        margin-right: 4px;
+    }
+
+    .header{
+        margin-left: 5em;
+        font-size: 56px;
+        background: -webkit-linear-gradient(#394f74, #627fb2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .section3-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 28px;
+        font-weight: 400;
+        
+    }
+}
+

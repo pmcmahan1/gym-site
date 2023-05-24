@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.scss'
+import './Section1.scss'
 import img1 from './assets/about-1.jpg'
 import img2 from './assets/about-2.jpg'
 
