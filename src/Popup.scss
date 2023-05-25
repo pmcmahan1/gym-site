@@ -8,14 +8,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+    form{
+        gap: 1em;
+    }
+
+    .popup-headtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .popup-subtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .popup-warning{
+        max-width: 480px;
+        text-align: center;
+    }
 }
 
 .popup-inner{
     position: relative;
-    padding: 32px 32px;
+    padding: 42px 28px;
     width: 100%;
     max-width: 640px;
     background-color: #FFF;
+    border-radius: 8px;
 }
 
 .popup-inner .close-btn{
@@ -32,6 +53,7 @@
 .highlight{
     color: #394f74;
     font-weight: 500;
+    cursor: pointer;
 }
 
 form{
@@ -43,6 +65,9 @@ form{
 .popup-checkbox{
     display: flex;
     align-items: center;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -56,6 +81,8 @@ form{
     background: linear-gradient(#627fb2, rgb(0 0 0/40%)) top/100% 800%;
     transition: 0.5s;
     background-color: #394f74;
+    margin-top: 0.5em;
+    width: 40%;
 }
 
 .signup-btn:hover{
@@ -66,3 +93,15 @@ form{
 .signup-btn:active{
     transform: scale(.90);
 }
+
+input[type=checkbox] {
+    transform: scale(1.1);
+}
+
+input[type=text], input[type=password] {
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+  }

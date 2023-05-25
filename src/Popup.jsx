@@ -38,15 +38,15 @@ const Popup = (props) => {
             required
           ></input>{" "}
           <div className="popup-checkbox">
-            <input type="checkbox" name="remember"></input>
+            <input type="checkbox" name="remember" id="remember"></input>
 
             <label for="remember">
               <b>Remember me</b>
             </label>
           </div>
           <div className="popup-warning">
-            By creating an account, you agree to our Terms and have read and acknowledged
-            the Glboal Privacy Statement.
+            By creating an account, you agree to our <span className="highlight">Terms</span> and have read and acknowledged
+            the <span className="highlight">Global Privacy Statement.</span>
           </div>
           <button type="button" className="signup-btn">Sign Up</button>
         </form>
