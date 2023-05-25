@@ -3,7 +3,7 @@ import {Link} from 'react-scroll'
 import './Nav.scss'
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className='nav'>
         <div className="nav-left">
@@ -34,7 +34,7 @@ const Nav = () => {
             </Link>
         </div>
         <div className="nav-right">
-            <button>Join Us</button>
+            <button onClick={() => props.popup(true)}>Join Us</button>
         </div>
     </div>
   )

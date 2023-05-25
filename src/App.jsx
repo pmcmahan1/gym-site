@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useState } from 'react'
 import './App.scss'
 import Nav from './Nav'
 import Hero from './Hero'
@@ -8,21 +8,24 @@ import Section3 from './Section3'
 import Location from './Location'
 import Membership from './Membership'
 import Footer from './Footer'
+import Popup from './Popup'
 
 function App() {
 
-  const firstItemRef = useRef(null);
+const [buttonPopup, setButtonPopup] = useState(false);
+
 
   return (
 <div className="app">
-<Nav />
-<Hero ref={firstItemRef} />
+<Nav popup={setButtonPopup} />
+<Hero/>
 <About />
 <Section2 />
 <Section3 />
 <Location />
-<Membership />
+<Membership popup={setButtonPopup}  />
 <Footer />
+<Popup trigger={buttonPopup} setTrigger={setButtonPopup}></Popup>
 </div>
   )
 }

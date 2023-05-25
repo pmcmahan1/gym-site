@@ -1,0 +1,68 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF;
+}
+
+.popup-inner .close-btn{
+    background-color: #FFF;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.highlight{
+    color: #394f74;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-checkbox{
+    display: flex;
+    align-items: center;
+
+}
+
+.signup-btn{
+    cursor: pointer;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 550;
+    background: linear-gradient(#627fb2, rgb(0 0 0/40%)) top/100% 800%;
+    transition: 0.5s;
+    background-color: #394f74;
+}
+
+.signup-btn:hover{
+    background-position: bottom;
+    color: white;
+}
+
+.signup-btn:active{
+    transform: scale(.90);
+}

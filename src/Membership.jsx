@@ -2,7 +2,7 @@ import React from 'react'
 import './Membership.scss'
 import img from './assets/member-1.jpg'
 
-const Membership = () => {
+const Membership = (props) => {
   return (
     <div className='membership'>
         <div className="header">Our Membership</div>
@@ -18,7 +18,7 @@ const Membership = () => {
                     you joining our family to strive for a better you.
                 </div>
                 <div className="membership-signup">
-                    <button>Sign up</button>
+                    <button onClick={() => props.popup(true)}>Sign up</button>
                 </div>
             </div>
             <div className="membership-right">
