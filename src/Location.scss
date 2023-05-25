@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     gap: 2em;
+    padding: 5em 0;
 
     .icon{
         height: 100%;
@@ -35,6 +36,11 @@
     .location-address{
         display: flex;
         align-items: center;
+    }
+
+    .location-review{
+        display: flex;
+        gap: 2px;
     }
 
     .location-container{

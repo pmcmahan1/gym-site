@@ -16,7 +16,7 @@
     
 
     .nav-left{
-        cursor: default;
+        cursor: pointer;
 
         .nav-logo{
             display: flex;
@@ -46,6 +46,7 @@
 
         .nav-item{
             padding: 5px;
+            cursor: pointer;
 
         }
 
